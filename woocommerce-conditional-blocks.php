@@ -3,7 +3,7 @@
  * Plugin Name: WooCommerce Conditional Blocks
  * Plugin URI: https://getbutterfly.com/wordpress-plugins/woocommerce-conditional-blocks/
  * Description: WooCommerce conditional blocks allows you to display additional or alternate content based on a set of rules and conditions, including current users role, product categories, product tags, prices, cart contents, and many, many more.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: getButterfly
  * Author URI: http://getbutterfly.com/
  * Update URI: http://getbutterfly.com/
@@ -15,7 +15,7 @@
  * Text Domain: woocommerce-bulk-discount
  *
  * WC requires at least: 8.0
- * WC tested up to: 9.4.3
+ * WC tested up to: 9.5.2
  *
  * Parts of the code taken from Lucas Stark's Conditional Content plugin.
  */
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     die;
 }
 
-define( 'WCCC_VERSION', '1.0.0' );
+define( 'WCCC_VERSION', '1.0.1' );
 define( 'WCCC_PLUGIN_URL', WP_PLUGIN_URL . '/' . dirname( plugin_basename( __FILE__ ) ) );
 define( 'WCCC_PLUGIN_PATH', WP_PLUGIN_DIR . '/' . dirname( plugin_basename( __FILE__ ) ) );
 define( 'WCCC_PLUGIN_FILE_PATH', WP_PLUGIN_DIR . '/' . plugin_basename( __FILE__ ) );
