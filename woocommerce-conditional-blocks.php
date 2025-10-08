@@ -29,8 +29,6 @@ define( 'WCCC_PLUGIN_URL', WP_PLUGIN_URL . '/' . dirname( plugin_basename( __FIL
 define( 'WCCC_PLUGIN_PATH', WP_PLUGIN_DIR . '/' . dirname( plugin_basename( __FILE__ ) ) );
 define( 'WCCC_PLUGIN_FILE_PATH', WP_PLUGIN_DIR . '/' . plugin_basename( __FILE__ ) );
 
-require WCCC_PLUGIN_PATH . '/includes/updater.php';
-
 if ( ! class_exists( 'WC_Dependencies' ) ) {
     require_once 'woo-includes/class-wc-dependencies.php';
 }
